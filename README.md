@@ -30,7 +30,7 @@ Watch a demo of the app on YouTube:
 ## Release APK
 
 Download the release APK file:
-[Release APK](build/app/outputs/flutter-apk/app-release.apk)
+[Release APK](Released-Apk/app-release.apk)
 
 ## Architecture Overview
 
