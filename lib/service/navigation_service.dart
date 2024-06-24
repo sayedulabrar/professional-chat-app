@@ -1,0 +1,39 @@
+import 'package:flutter/material.dart';
+import '/utils/signup.dart';
+
+import '/utils/home.dart';
+import '/utils/login.dart';
+
+class NavigationService {
+  late final GlobalKey<NavigatorState> _navigatorKey;
+
+  final Map<String, Widget Function(BuildContext)> _routes = {
+    '/login': (context) => Login(),
+    '/home': (context) => Home(),
+    '/register': (context) => Signup()
+  };
+
+  GlobalKey<NavigatorState>? get navigatorKey => _navigatorKey;
+
+  Map<String, Widget Function(BuildContext)> get routes {
+    return _routes;
+  }
+
+  NavigationService() {
+    _navigatorKey = GlobalKey<NavigatorState>();
+  }
+
+  void push(MaterialPageRoute route) {
+    _navigatorKey.currentState?.push(route);
+  }
+
+  void pushNamed(String routeName) {
+    _navigatorKey.currentState?.pushNamed(routeName);
+  }
+
+  void pushReplacementNamed(String routeName) {
+    _navigatorKey.currentState?.pushReplacementNamed(routeName);
+  }
+
+  void goBack() => _navigatorKey.currentState?.pop();
+}
