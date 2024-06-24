@@ -20,7 +20,7 @@ This project follows a structured and modular approach to keep the codebase clea
 ## Live Demo
 
 Watch a demo of the app on YouTube:
-[Demo Video](https://www.youtube.com/watch?v=eClsbP6L1Ic)
+[Demo Video](https://www.youtube.com/watch?v=i00H2Hs7BNg)
 
 - **0 to 1:03 minute**: Signup and logout functionality.
 - **1:04 to 2:00 minutes**: Login and users list.
