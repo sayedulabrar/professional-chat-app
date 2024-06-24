@@ -30,7 +30,7 @@ Watch a demo of the app on YouTube:
 ## Release APK
 
 Download the release APK file:
-[Release APK](Released-Apk/app-release.apk)
+[Release APK](Released-Apk/)
 
 ## Architecture Overview
 
