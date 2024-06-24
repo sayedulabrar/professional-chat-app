@@ -42,5 +42,5 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Explicitly ignore the release APK file
-/build/app/outputs/flutter-apk/app-release.apk
+# Explicitly allow the release APK file in Released-Apk directory
+!Released-Apk/app-release.apk
